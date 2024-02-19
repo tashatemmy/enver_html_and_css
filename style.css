@@ -505,13 +505,14 @@ footer {
        
     }
     .services {
+        max-width: 300px;
         margin-top: 15px;
         padding-left: 8px;
         font-size: 23px;
     }
     #play {
         width: 50px;
-        left: -8%;
+        left: -6%;
     }
     #cross {
        bottom: -6%;
