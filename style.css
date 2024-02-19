@@ -52,7 +52,7 @@ ul {
     justify-content: space-between;
 }
 a {
-    font-size: 13px;
+    font-size: 15px;
     color: #FFFFFF;
     opacity: 0.7;
     text-decoration: none;
@@ -88,7 +88,7 @@ main {
 #about-p {
     max-width: 450px;
     color: #FFFFFF;
-    font-size: 13.8px;
+    font-size: 14.8px;
     opacity: 0.7;
     letter-spacing: -0.44px;
     margin-top: 9px;
@@ -166,8 +166,8 @@ span img {
     width: 80vw;
     margin: auto;
     display: grid;
-    grid-template-columns: 45% 50%;
-    column-gap: 5%;
+    grid-template-columns: 45% 52%;
+    column-gap: 3%;
 
 }
 .question {
@@ -180,10 +180,10 @@ span img {
     opacity: 0.7;
     letter-spacing: -0.44px;
     display: flex;
-    font-size: 13.5px;
+    font-size: 14.8px;
     justify-self: flex-end;
     padding-top: 0.5rem;
-    max-width: 400px;
+    max-width: 450px;
     line-height: 1.2;
 
 }
@@ -270,13 +270,13 @@ span img {
     text-align: center;
     padding: 10px 0px;
     min-width: 150px;
-    font-size: 14.5px;
+    font-size: 14.8px;
 }
 .cates p {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 13px;
+    font-size: 13.8px;
     max-width: 300px;
     letter-spacing: -0.33px;
     opacity: 0.7;
@@ -403,7 +403,7 @@ footer {
     font-size: 11px;
     padding-top: 15px;
 }
-/* @media  screen and (max-width: 900px) {
+@media  screen and (max-width: 900px) {
     nav {
         letter-spacing: -1px;
         font-size: 13px;
@@ -414,13 +414,14 @@ footer {
     }
     .about-us {
         letter-spacing: 1.5px;
+    }
     
     .to-use {
         font-size: 29px;
     }
-     */
-    
 }
+
+    
 @media only screen and (max-width: 768px) {
     header {
         grid-template-columns: 25% 48% 25%;
@@ -509,7 +510,7 @@ footer {
         font-size: 23px;
     }
     #play {
-        left: -8%;
+        left: -10%;
     }
     #cross {
        bottom: -6%;
@@ -524,6 +525,9 @@ footer {
     }
     .bottom-cross {
         margin-top: 290px;
+    }
+    .portfolio-heading img {
+        top: 65%;
     }
     .portfolio-images img {
         width: 100%;
