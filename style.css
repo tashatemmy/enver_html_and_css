@@ -506,7 +506,7 @@ footer {
     }
     .services {
         margin-top: 15px;
-        padding-left: 10px;
+        padding-left: 8px;
         font-size: 23px;
     }
     #play {
@@ -536,9 +536,7 @@ footer {
     }
     .folio-one, .folio-two {
        display: none;
-    }
-    
-    
+    }    
 }
 
 
