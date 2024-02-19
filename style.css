@@ -510,7 +510,8 @@ footer {
         font-size: 23px;
     }
     #play {
-        left: -10%;
+        width: 50px;
+        left: -8%;
     }
     #cross {
        bottom: -6%;
