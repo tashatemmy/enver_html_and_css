@@ -403,7 +403,7 @@ footer {
     font-size: 11px;
     padding-top: 15px;
 }
-@media  screen and (max-width: 900px) {
+/* @media  screen and (max-width: 900px) {
     nav {
         letter-spacing: -1px;
         font-size: 13px;
@@ -418,10 +418,10 @@ footer {
     .to-use {
         font-size: 29px;
     }
-    
+     */
     
 }
-@media screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
     header {
         grid-template-columns: 25% 48% 25%;
         gap: 2%;
@@ -448,7 +448,7 @@ footer {
         font-size: 21px;
     }
 }
-@media screen and (max-width: 680px) {
+@media only screen and (max-width: 680px) {
     .nav {
         display: none;
     }
@@ -476,7 +476,7 @@ footer {
    text-align: center;
     }
 }
-@media screen and (max-width: 580px) {
+@media only screen and (max-width: 580px) {
     main {
         grid-template-columns: 1fr;
     }
