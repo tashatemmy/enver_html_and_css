@@ -390,18 +390,31 @@ footer {
     justify-content: space-between;
 
 }
-.nav-footer {
+.nav-footer ul {
     padding-top: 0.9rem;
     color: rgb(243, 242, 242);
     text-align: right;
     font-family: "Nunito Sans" , sans-serif;
     font-size: 12px;
     font-weight: 100;
-    letter-spacing: -0.5px; 
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer a {
+    padding-left: 3px;
 }
 .copyright {
     font-size: 11px;
     padding-top: 15px;
+}
+.designed-by {
+    padding-right: 50px;
+    display: block;
+    text-align: center;
+    opacity: 0.6;
+    margin: 0 auto;
+    font-size: 11px;
 }
 @media  screen and (max-width: 900px) {
     nav {
@@ -453,6 +466,13 @@ footer {
     .nav {
         display: none;
     }
+    button {
+        padding: 0.2rem 0.35rem;
+        margin-top: 0px;
+    }
+    .contact {
+        font-size: 12px;
+    }
     footer {
         display: grid;
         grid-template-columns: 1fr;
@@ -476,9 +496,16 @@ footer {
     .copyright {
    text-align: center;
     }
+    .designed-by {
+        padding-right: 0px;
+    }
 }
 @media only screen and (max-width: 580px) {
+    header {
+        width: 90vw;
+    }
     main {
+        width: 90vw;
         grid-template-columns: 1fr;
     }
     #about-h1 {
@@ -493,6 +520,7 @@ footer {
         margin-left: 0px;
     }
     .clip {
+        width: 90vw;
         margin-top: 40px;
         grid-template-columns: 1fr;
         gap: 0px;
@@ -504,19 +532,32 @@ footer {
         max-width: 400px;
        
     }
+    .service-list {
+        width: 85vw;
+    }
     .services {
         max-width: 300px;
         margin-top: 15px;
         padding-left: 8px;
         font-size: 23px;
     }
+    .video-area {
+        width: 90vw;
+        margin: 20px auto;
+    }
+    #play-video {
+        width: 85vw;
+    }
     #play {
-        width: 50px;
-        left: -6%;
+        width: 40px;
+        left: -4%;
     }
     #cross {
        bottom: -6%;
        right: -1%;
+    }
+    .categories {
+        width: 90vw;
     }
     .sub-categories {
         grid-template-columns: 1fr;
@@ -537,7 +578,16 @@ footer {
     }
     .folio-one, .folio-two {
        display: none;
-    }    
+    } 
+    .vector-design {
+        margin-left: -20px;
+    }
+    .pre-footer {
+        padding-top: 0px;
+    } 
+    #pre-footer {
+        margin-top: 10px;
+    }  
 }
 
 
