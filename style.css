@@ -410,6 +410,7 @@ footer {
 }
 .designed-by {
     padding-right: 50px;
+    padding-top: 10px;
     display: block;
     text-align: center;
     opacity: 0.6;
